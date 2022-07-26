@@ -1,27 +1,71 @@
+body{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
 .Heading {
     padding: 15px;
     display: flex;
     justify-content: center;
-    background: url("https://i.pinimg.com/originals/ed/34/b0/ed34b0fe6f167933c0412d7f0ae4135d.gif");
+    background-color: beige;
 }
 
 .AboutMe {
+    justify-content: space-between;
+    font-size: 23px;
+}
+
+.profile {
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+}
+
+.Embedded {
     display: flex;
     justify-content: center;
 }
 
-.E1T1 {
+.MusicBlocks{
+    padding-left:20px;
+}
+
+.ScratchGame{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.Shadow{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.Shadowimg{
+    width: 700px;
+    height: fit-content;
+    border: 5px solid black;
+    margin: 5px
+}
+
+.Modeling{
+    display:flex;
+    justify-content: center;
+}
+
+.img {
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
 }
 
 iframe {
     padding: 10px;
 }
 
-img {
-    width: 20px;
-    height: 10px;
-    display: flex;
-    justify-content: center;
+.E1T1Sec{
+    background-color: rgb(241, 244, 248);
+}
+
+.ModelingSec{
+    background-color: rgba(190, 190, 190, 0.272);
 }
